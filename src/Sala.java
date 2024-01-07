@@ -66,4 +66,12 @@ public class Sala {
     public void setObservaciones(String observaciones) {
         this.observaciones = observaciones;
     }
+
+    //MÉTODOS
+    public boolean comprobarCapacidad(int asistentes){
+        if (asistentes > this.capacidad_maxima){
+            return false;
+        }
+        return true;
+    }
 }
