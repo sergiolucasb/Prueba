@@ -73,5 +73,17 @@ public class Asistente {
     public void setFecha_nacimiento(String fecha_nacimiento) {
         this.fecha_nacimiento = fecha_nacimiento;
     }
-    
+
+    //TO STRING
+    @Override
+    public String toString() {
+        return "Asistente{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", email='" + email + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", dni='" + dni + '\'' +
+                ", fecha_nacimiento='" + fecha_nacimiento + '\'' +
+                '}';
+    }
 }
