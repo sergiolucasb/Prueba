@@ -74,7 +74,7 @@ public class Asistente {
         this.fecha_nacimiento = fecha_nacimiento;
     }
 
-    //TO STRING
+    //MÉTODOS
     @Override
     public String toString() {
         return "Asistente{" +
@@ -85,5 +85,12 @@ public class Asistente {
                 ", dni='" + dni + '\'' +
                 ", fecha_nacimiento='" + fecha_nacimiento + '\'' +
                 '}';
+    }
+
+    public void infoBasica(){
+        System.out.println("Nombre: " + this.nombre);
+        System.out.println("Apellidos: " + this.apellidos);
+        System.out.println("Email: " + this.email);
+        System.out.println("DNI:" + this.dni);
     }
 }
