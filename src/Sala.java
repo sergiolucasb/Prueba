@@ -9,8 +9,6 @@ public class Sala {
     private String observaciones;
 
     //GETTER Y SETTER
-
-
     public String getNombre() {
         return nombre;
     }
