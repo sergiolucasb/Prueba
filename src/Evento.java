@@ -7,6 +7,6 @@ public class Evento {
     private String hora;
     private double precio;
     private String tipo;
-    private int maximo_asistentes;
-    
+    private int max_asistentes;
+
 }
